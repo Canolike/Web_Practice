@@ -1,0 +1,415 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,500);
+
+.header{
+    max-width: 1440px;
+    max-height: 94.45px;
+    width: 1312px;
+    height: 62.45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E7E8E9;
+    padding: 16px 64px 16px 64px;
+    margin: 0;
+}
+
+.HeaderMenu{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.intro{ 
+    display: flex;
+    width: 1440px;
+    height: 780px;
+    margin: 0;
+    background: radial-gradient(39.76% 39.76% at 100% 60.24%, rgba(20, 255, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(45.99% 45.99% at 0% 22.74%, rgba(5, 255, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #E7E8E9;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro_title1{
+    font-family: "Gill Sans Nova";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.intro_title2{
+    font-family: "Lato";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.intro_title3{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(15, 22, 30, 0.7);
+}
+
+.intro_title4{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(15, 22, 30, 0.7);
+}
+
+.LandingP{
+    width: 1440px;
+    height: 3881.45px;
+    margin: 0;
+    max-width: 1440px;
+}
+
+.footerbuttons{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans Nova';
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0px 8px 0px 24px;
+    line-height: 34px;
+} 
+
+*{
+    margin: 0;
+}
+
+.text1{
+    padding: 256px 256px 8px 256px ;
+    width: 928px;
+}
+
+.text2{
+    padding: 8px 256px 8px 256px;
+    width: 928px;
+}
+
+.text3{
+    padding: 8px 256px 8px 256px;
+    width: 928px;
+}
+
+.text4{
+    padding: 8px 256px 128px 256px;
+    width: 928px;
+}
+
+
+.social_networks{
+    color: rgba(15, 22, 30, 0.7);
+}
+
+.Spotlight{
+    width: 1184px;
+    height: 928px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 128px 64px 128px;
+    background: #E7E8E9;
+    justify-content: space-between;
+}
+
+.main_title{
+    font-family: "Gill Sans Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.project_review{
+    background: #EBF1F1;
+    border: 1px solid #E7E8E9;
+    box-shadow: 3px 8px 10px rgba(15, 22, 30, 0.11);
+    border-radius: 10px;
+    width: 373.33px;
+    height: 408px;
+    
+}
+
+.project_image{
+    width: 341.33px;
+    height: 256px;
+    background: linear-gradient(180deg, rgba(66, 255, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), #FFFFFF;
+    margin: 16px 16px 8px 16px;
+    border-radius: 10px; 
+}
+
+.project_title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 0px 16px 8px 16px;
+}
+
+.project_description{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(15, 22, 30, 0.7);
+    padding: 0px 16px 8px 16px;
+}
+
+.Dribble_project_img{
+    width: 32px;
+    height: 24px;
+    padding: 0px 16px 16px 325.33px;
+}
+
+.second_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1183.99px;
+    height: 848px;
+}
+
+.projects2{
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    flex-wrap: wrap;
+}
+
+.project_review2{
+    width: 720px;
+    height: 512px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project_review2_img{
+    width: 720px;
+    height: 512px;
+    background: linear-gradient(180deg, rgba(66, 255, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), #FFFFFF;
+    position: absolute;
+}
+
+.project_review2_button{
+    width: 230px;
+    height: 66px;
+    background: #F9F9F9;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    border: none;
+    margin: 430px 16px 16px 0px;
+}
+
+.project_review2_buttontext{
+    font-family: 'Gill Sans Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    position: relative;
+}
+
+.project_title2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+}
+
+.project_description2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(15, 22, 30, 0.7);
+    position: relative;
+}
+
+.Title_description{
+    padding: 0px 0px 0px 16px;
+    margin: 430px 0px 22px 0px;
+}
+
+.Last_container{
+    width: 1440px;
+    height: 683px;
+    background: #242D42;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.yt_clip{
+    position: absolute;
+    width: 574px;
+    height: 314px;
+    left: 229px;
+    top: 64px;
+    background: linear-gradient(180deg, rgba(66, 255, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), #000000;
+    border-radius: 50px;
+}
+
+.last_textblock{
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    padding: 292px 229px 0px 533px;
+}
+
+.Last_title{
+    font-family: 'Gill Sans Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #F9F9F9;
+    position: relative;
+}
+
+.Last_description{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #F9F9F9;
+    position: relative;
+    width: 650px;
+    padding-top: 16px;
+}
+
+.yt_clip_review_button{
+    width: 405px;
+    height: 66px;
+    background: #42FF00;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border: none;
+    margin: 16px 502px 65px 533px;
+}
+
+.yt_clip_review_button_text{
+    font-family: 'Gill Sans Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.vector1{
+    position: relative;
+}
+
+.vector_container{
+    width: 21px;
+    height: 21.01px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.vector2{
+    position: absolute;
+    margin-left: 65%;
+    margin-right: 13%;
+    margin-top: 11%;
+    margin-bottom: 60%;
+}
+
+.page_end{
+    width: 1440px;
+    height: 224px;
+    display: flex;
+    background: #E7E8E9;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    flex-direction: row;
+}
+
+.side-container{
+    width: 1440px;
+    height: 683px;
+}
+
+.About{
+    padding-left: 128px;
+    
+}
+
+.Location_text_style{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 8px;
+
+}
+
+.email_text_style{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 8px;
+}
+
+.social_networks2{
+    width: 224px;
+    height: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 128px;
+}
+
+.Dribble{
+    width: 25%;
+}
+
+.Twitter{
+    width: 25%;
+}
+
+.Figma{
+    width: 25%;
+}
+
+.Notion{
+    width: 25%;
+}
+
+.Youtube{
+    width: 25%;
+}
+
+.image_social_n{
+    width: 23%;
+}
+
+.Github{
+    width: 25%;
+}
+
+
